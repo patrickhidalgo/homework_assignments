@@ -1,0 +1,4 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+ #   - 'chapter_1/ex1.rb'
