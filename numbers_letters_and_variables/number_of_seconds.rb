@@ -13,12 +13,12 @@ puts "There are #{seconds_in_a_minute} seconds in a minute"
 puts "There are #{minutes_in_an_hour} minutes in an hour"
 puts "There are #{hours_in_a_day} hours in a day"
 puts "There are #{days_in_a_week} days in a week"
-puts 'That means that there are:'
+puts 'That means there are:'
 puts "  #{seconds_in_an_hour} seconds in an hour,"
 puts "  #{seconds_in_a_day} seconds in a day,"
 puts "  #{seconds_in_a_week} seconds in a week"
-puts "That means when you turn 20, you've been alive for
-      #{seconds_at_age_20} seconds,"
-puts "and if you make it to 100, you will have lived
-      #{seconds_at_age_100} seconds. Make them"
+puts "That means when you turn 20, you've been alive for "\
+    "#{seconds_at_age_20} seconds,"
+puts "and if you make it to 100, you will have lived "\
+    "#{seconds_at_age_100} seconds. Make them"
 puts 'count!'
