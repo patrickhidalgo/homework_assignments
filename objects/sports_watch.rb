@@ -8,12 +8,12 @@
 class SportsWatch
   attr_reader :current_date, :current_time
   def initialize
-    @current_time = Time.now.strftime('%d.%m')
-    @current_date = Time.now.strftime('%l:%M %p')
+    @current_date = Time.now.strftime('%d.%m')
+    @current_time = Time.now.strftime('%l:%M %p')
   end
 
   def workout(miles, time, avg_bpm)
-    @workout_stats = "#{miles}Mi \n#{time}Min \n#{avg_bpm}avg BMP"
+    @workout_stats = "#{miles}Mi \n#{time}Min \n#{avg_bpm}avg BPM"
   end
 
   def current_display(display_mode = '')
