@@ -32,7 +32,7 @@ puts "A vacation is when you take a trip to some #{adjective} place"
 puts "with your #{another_adjective} family. Usually you go to some place"
 puts "that is near a/an #{noun} or up on a/an #{another_noun}."
 puts "A good vacation place is one where you can ride #{plural_noun}"
-puts "or play #{game} or go hunting for #{another_plural_noun} . I like"
+puts "or play #{game} or go hunting for #{another_plural_noun}. I like"
 puts "to spend my time #{verb_ending_in_ing} or #{another_verb_ending_in_ing}."
 puts 'When parents go on a vacation, they spend their time eating'
 puts "three #{one_more_plural_noun} a day, and fathers play golf, and mothers"

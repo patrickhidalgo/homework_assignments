@@ -19,6 +19,6 @@ puts "  #{seconds_in_a_day} seconds in a day,"
 puts "  #{seconds_in_a_week} seconds in a week"
 puts "That means when you turn 20, you've been alive for "\
     "#{seconds_at_age_20} seconds,"
-puts "and if you make it to 100, you will have lived "\
+puts 'and if you make it to 100, you will have lived '\
     "#{seconds_at_age_100} seconds. Make them"
 puts 'count!'

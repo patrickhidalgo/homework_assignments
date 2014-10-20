@@ -18,7 +18,7 @@ def bottle_count(bottle)
     current_bottle_plurality = 'bottles'
     future_bottle_plurality = 'bottle'
     first_line = "#{bottle} #{current_bottle_plurality} of beer on the " \
-                  " wall, #{bottle} #{current_bottle_plurality} of beer."
+                  "wall, #{bottle} #{current_bottle_plurality} of beer."
     final_line = "Take one down and pass it around, #{bottle - 1}" \
                   " #{future_bottle_plurality} of beer on the wall."
   else

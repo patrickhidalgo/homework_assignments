@@ -9,7 +9,7 @@ while count <= 10
 end
 
 puts "#{elements.join('...')}..."
-puts "T-#{elements.reverse.join(', ')}...  BLASTOFF"
+puts "T-#{elements.reverse.join(', ')}...  BLASTOFF!"
 puts "The last element is #{elements.last}"
 puts "The first element is #{elements.first}"
 puts "The third element is #{elements[2]}"

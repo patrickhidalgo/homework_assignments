@@ -2,9 +2,9 @@
 count = 1
 while count <= 100
   if count % 3 == 0 && count % 5 == 0
-    puts 'FizzBizz'
+    puts 'FizzBuzz'
   elsif count % 5 == 0
-    puts 'Bizz'
+    puts 'Buzz'
   elsif count % 3 == 0
     puts 'Fizz'
   else
