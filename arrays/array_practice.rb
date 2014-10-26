@@ -15,7 +15,7 @@ puts "The first element is #{elements.first}"
 puts "The third element is #{elements[2]}"
 puts "The element with an index of 3 is #{elements[3]}"
 puts "The second from last element is #{elements[elements.length - 2]}"
-puts "The first four elements are '#{elements.first(4).join(',')}'"
+puts "The first four elements are '#{elements.first(4).join(', ')}'"
 # puts "If we delete 5, 6 and 7 from the array, we're left with
 # #{elements.keep_if { |i| i != 5 && i != 6 && i !=7}}"
 # puts "If we delete 5, 6 and 7 from the array, we're left with

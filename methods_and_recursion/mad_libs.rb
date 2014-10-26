@@ -37,7 +37,7 @@ puts "to spend my time #{verb_ending_in_ing} or #{another_verb_ending_in_ing}."
 puts 'When parents go on a vacation, they spend their time eating'
 puts "three #{one_more_plural_noun} a day, and fathers play golf, and mothers"
 puts "sit around #{yet_another_verb_ending_in_ing}. Last summer, " \
-    ' my little brother'
+    'my little brother'
 puts "fell in a/an #{yet_another_noun} and got poison #{plant} all"
 puts "over his #{part_of_body}. My family is going to go to (the)"
 puts "#{place}, and I will practice #{last_verb_ending_in_ing}. Parents"
