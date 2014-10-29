@@ -21,11 +21,12 @@ puts "The first four elements are '#{elements.first(4).join(', ')}'"
 # puts "If we delete 5, 6 and 7 from the array, we're left with
 # #{elements.select{ |i| i != 5 && i != 6 && i !=7}}"
 puts "If we delete 5, 6 and 7 from the array, we're left with " \
-    "#{elements.delete_if { |i| i > 4 && i < 8 } }"
+    "[#{elements.delete_if{ |i| i > 4 && i < 8 }.join(',')}]"
 puts "If we add 5 at the beginning of the array, we're left with "\
-      "#{elements.delete_if { |i| i > 4 && i < 8 }.unshift(5) }"
+      "[#{elements.delete_if { |i| i > 4 && i < 8 }.unshift(5).join(',') }]"
 puts "If we add 6 at the end of the array, we're left with "\
-      "#{ (elements.delete_if { |i| i > 4 && i < 8 }.unshift(5)).push(6) }"
-puts "Only the elements #{elements.select { |i| i > 8 } } are > 8 "
+      "[#{ (elements.delete_if { |i| i > 4 && i < 8 }.unshift(5)).push(6).join(',') }]"
+puts "Only the elements #{elements.select { |i| i > 8 } } are > 8."
 puts 'If we remove all the elements, then the length of the array is '\
     "#{elements.clear.length} "
+
