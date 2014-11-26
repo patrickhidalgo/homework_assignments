@@ -1,0 +1,6 @@
+<p>
+  <%= @bottles %> bottles of beer on the wall,
+  <%= @bottles %> bottles of beer...
+</p>
+
+<%= link_to 'Take one down...', pass_path(number_of_bottles: @bottles) %>
