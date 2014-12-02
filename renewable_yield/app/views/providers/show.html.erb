@@ -1,0 +1,47 @@
+<div class="page-header">
+  <%= link_to providers_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_provider_path(@provider), :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show provider</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Company name:</dt>
+  <dd><%= @provider.company_name %></dd>
+
+  <dt>Contact first name:</dt>
+  <dd><%= @provider.contact_first_name %></dd>
+
+  <dt>Last name:</dt>
+  <dd><%= @provider.last_name %></dd>
+
+  <dt>Company phone number:</dt>
+  <dd><%= @provider.company_phone_number %></dd>
+
+  <dt>Company street address:</dt>
+  <dd><%= @provider.company_street_address %></dd>
+
+  <dt>Company city:</dt>
+  <dd><%= @provider.company_city %></dd>
+
+  <dt>Company state:</dt>
+  <dd><%= @provider.company_state %></dd>
+
+  <dt>Company zip:</dt>
+  <dd><%= @provider.company_zip %></dd>
+
+  <dt>Company email:</dt>
+  <dd><%= @provider.company_email %></dd>
+
+  <dt>Password:</dt>
+  <dd><%= @provider.password %></dd>
+
+  <dt>Password confirmation:</dt>
+  <dd><%= @provider.password_confirmation %></dd>
+
+</dl>

@@ -1,10 +1,12 @@
 require 'rails_helper'
 
 feature 'Landing on homepage' do
-  scenario 'Someone lands on the homepage' do
+  scenario 'should display landing data' do
     visit '/'
-    expect(page).to have_content('Renewable Yield
-A fixed income alternative that funds renewable energy.')
+    expect(page).to have_content("Renewable Yield")
+    expect(page).to have_link("Get Invested")
+    expect(page).to have_link("Get Funded")
+    expect(page).to have_link("About")
   end
 end
 

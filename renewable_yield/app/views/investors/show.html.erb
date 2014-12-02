@@ -1,0 +1,50 @@
+<div class="page-header">
+  <%= link_to investors_path, :class => 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_investor_path(@investor), :class => 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show investor</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>First name:</dt>
+  <dd><%= @investor.first_name %></dd>
+
+  <dt>Middle name:</dt>
+  <dd><%= @investor.middle_name %></dd>
+
+  <dt>Last name:</dt>
+  <dd><%= @investor.last_name %></dd>
+
+  <dt>Phone number:</dt>
+  <dd><%= @investor.phone_number %></dd>
+
+  <dt>Street address:</dt>
+  <dd><%= @investor.street_address %></dd>
+
+  <dt>City:</dt>
+  <dd><%= @investor.city %></dd>
+
+  <dt>State:</dt>
+  <dd><%= @investor.state %></dd>
+
+  <dt>Zip:</dt>
+  <dd><%= @investor.zip %></dd>
+
+  <dt>Email:</dt>
+  <dd><%= @investor.email %></dd>
+
+  <dt>Ssn:</dt>
+  <dd><%= @investor.ssn %></dd>
+
+  <dt>Password:</dt>
+  <dd><%= @investor.password %></dd>
+
+  <dt>Password confirmation:</dt>
+  <dd><%= @investor.password_confirmation %></dd>
+
+</dl>
