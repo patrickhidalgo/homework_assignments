@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141202120846) do
+ActiveRecord::Schema.define(version: 20141203041105) do
+
+  create_table "investments", force: true do |t|
+    t.integer  "term"
+    t.decimal  "interest_rate"
+    t.integer  "minimum_order"
+    t.integer  "denomination"
+    t.date     "maturity_date"
+    t.date     "issue_date"
+    t.date     "offer_start_period"
+    t.date     "offer_end_period"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "investors", force: true do |t|
     t.string   "first_name"

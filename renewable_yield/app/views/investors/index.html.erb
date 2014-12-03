@@ -11,7 +11,7 @@
     <thead>
       <tr>
             <th>First name</th>
-            <th>Middle name</th>
+            <!--<th>Middle name</th>-->
             <th>Last name</th>
             <th>Phone number</th>
             <th>Street address</th>
@@ -19,9 +19,9 @@
             <th>State</th>
             <th>Zip</th>
             <th>Email</th>
-            <th>Ssn</th>
-            <th>Password</th>
-            <th>Password confirmation</th>
+            <!--<th>Ssn</th>-->
+            <!--<th>Password</th>-->
+            <!--<th>Password confirmation</th>-->
             <th></th>
         <th></th>
         <th></th>
@@ -31,7 +31,7 @@
     <tbody>
       <%= content_tag_for(:tr, @investors) do |investor| %>
             <td><%= investor.first_name %></td>
-            <td><%= investor.middle_name %></td>
+            <!--<td><%= investor.middle_name %></td>-->
             <td><%= investor.last_name %></td>
             <td><%= investor.phone_number %></td>
             <td><%= investor.street_address %></td>
@@ -39,9 +39,9 @@
             <td><%= investor.state %></td>
             <td><%= investor.zip %></td>
             <td><%= investor.email %></td>
-            <td><%= investor.ssn %></td>
-            <td><%= investor.password %></td>
-            <td><%= investor.password_confirmation %></td>
+            <!--<td><%= investor.ssn %></td>-->
+            <!--<td><%= investor.password %></td>-->
+            <!--<td><%= investor.password_confirmation %></td>-->
             <td><%= link_to 'Show', investor %></td>
         <td><%= link_to 'Edit', edit_investor_path(investor) %></td>
         <td><%= link_to 'Destroy', investor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
